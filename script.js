@@ -137,10 +137,25 @@
 // console.log(element);
 // })
 
-let select = document.querySelector('a')
+// let select = document.querySelector('a')
 
-console.log(select.getAttribute('href'));
+// console.log(select.getAttribute('href'));
 
-select.setAttribute('href',"https://www.youtube.com/")
-console.log(select.getAttribute('href'));
-select.innerText = "you tube link replaced"
+// select.setAttribute('href',"https://www.youtube.com/")
+// console.log(select.getAttribute('href'));
+// select.innerText = "you tube link replaced"
+
+// let itemSelected = document.querySelector('.ul')
+
+// itemSelected.addEventListener('click',(e)=>{
+//     // console.log("Item clicked");
+//     // console.log(e.target);
+//     // e.target.style.textDecoration = "linr-through"
+//     // console.log("inside li");
+//     // e.target.remove()
+// })
+
+let button = document.querySelector('.button')
+button.addEventListener('click',(e)=>{
+//   console.log("button clicked");
+})
