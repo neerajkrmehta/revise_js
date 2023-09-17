@@ -9,7 +9,7 @@
 
 // for (let i = 0; i < 10; i++) {
 //     console.log("run the task",i);
-    
+
 // }
 // let j =1;
 // while (j<=8) {
@@ -29,7 +29,7 @@
 //     if (i==5) {
 //        console.log(object);
 //     }
-    
+
 // }
 // console.log("sdf");
 
@@ -68,12 +68,10 @@
 
 // console.log(compliment("you are good coder")());
 
-
 // function greeting(){
 // console.log("Welcome to our Codeing Dunia");
 // }
 // setTimeout(greeting, 3000)
-
 
 // let car = {
 //     name:"honda",
@@ -88,10 +86,9 @@
 // console.log(car[propertyName]);
 
 // car.color = "brown"   // This is For Modification
-// console.log(car.color); 
+// console.log(car.color);
 
 // console.log(car["color"]);
-
 
 // let obj = {
 //     prop1 : "value1",
@@ -110,12 +107,12 @@
 //     getSummary: function(){
 //        // return `${this.firstName} ${this.lastName} live in ${this.city} and birth Year is ${this.birthYear} he is ${this.Education}`
 //        return this
-        
+
 //     }
-    
+
 // }
 // console.log(person.getSummary());
- 
+
 // FOREACH
 
 // let fruits = ["apple", "banana", "gava","pineapple","orange"]
@@ -132,7 +129,7 @@
 // console.log("**********");
 
 // fruits.forEach(function(element){
-//   
+//
 
 // console.log(element);
 // })
@@ -158,9 +155,8 @@
 // let button = document.querySelector('.button')
 // button.addEventListener('submit',(e)=>{
 //   console.log("button clicked");
-  
-// })
 
+// })
 
 // console.log("live reload")/
 
@@ -187,3 +183,29 @@
 // console.log(completeDateAndTime.getMonth());
 
 // console.log(completeDateAndTime.getDay());
+
+// let request = new XMLHttpRequest();
+// console.log(request);
+
+// request.open("Get")
+
+let hotel = {
+  name: "hottel",
+  location: "Bhagalpur",
+  categories: ["Chinese", "ITALIAN", "eNGLISH"],
+};
+
+let item = [2, 3, 4, 5, 6];
+
+let [x, y, z, p, q] = item;
+console.log(x, y, z, p, q);
+
+
+// let [first,second] = hotel.categories
+// console.log(first,second);
+
+let [main, secondary] = hotel.categories
+
+ [secondary,main] = [main,secondary]
+ 
+console.log(main,secondary);
