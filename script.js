@@ -155,7 +155,35 @@
 //     // e.target.remove()
 // })
 
-let button = document.querySelector('.button')
-button.addEventListener('click',(e)=>{
+// let button = document.querySelector('.button')
+// button.addEventListener('submit',(e)=>{
 //   console.log("button clicked");
-})
+  
+// })
+
+
+// console.log("live reload")/
+
+// let arr = [1,2,3,4,5,6,7]
+// // console.log(arr.slice(1));
+// console.log(arr.filter());
+// let found = arr.find(el => el>2)
+// console.log(found);
+
+// let dateDeclear = new Date(21,5,24)
+// console.log(dateDeclear);
+
+// let dateDeclear = new Date(8640000)
+// console.log(dateDeclear);
+
+//  let curreentDate = new Date().getTime();
+//  console.log(curreentDate);
+
+// let completeDateAndTime = new Date();
+// console.log(completeDateAndTime);
+
+// console.log(completeDateAndTime.getFullYear());
+
+// console.log(completeDateAndTime.getMonth());
+
+// console.log(completeDateAndTime.getDay());
