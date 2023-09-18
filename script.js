@@ -189,23 +189,39 @@
 
 // request.open("Get")
 
-let hotel = {
-  name: "hottel",
-  location: "Bhagalpur",
-  categories: ["Chinese", "ITALIAN", "eNGLISH"],
-};
+// let hotel = {
+//   name: "hottel",
+//   location: "Bhagalpur",
+//   categories: ["Chinese", "ITALIAN", "eNGLISH"],
+// };
 
-let item = [2, 3, 4, 5, 6];
+// let item = [2, 3, 4, 5, 6];
 
-let [x, y, z, p, q] = item;
-console.log(x, y, z, p, q);
+// let [x, y, z, p, q] = item;
+// console.log(x, y, z, p, q);
 
 
-// let [first,second] = hotel.categories
-// console.log(first,second);
+// // let [first,second] = hotel.categories
+// // console.log(first,second);
 
-let [main, secondary] = hotel.categories
+// let [main, secondary] = hotel.categories
 
- [secondary,main] = [main,secondary]
+//  [secondary,main] = [main,secondary]
  
-console.log(main,secondary);
+// console.log(main,secondary);
+
+
+let setitem = new Set([1,2,3,4,5,6])
+console.log(setitem);
+console.log(setitem.size);
+console.log(setitem.has(2));
+console.log(typeof setitem);
+
+for (const item of setitem) {
+  console.log(item);
+}
+
+let itemset = ("programmer")
+for (const item of itemset) {
+  console.log(item);
+}
